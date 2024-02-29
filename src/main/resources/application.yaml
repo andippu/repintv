@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: repin-services
+  config:
+    import: 
+      optional:configserver:http://localhost:9502
